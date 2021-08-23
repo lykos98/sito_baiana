@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<html>
+<style>
+    :root{
+    --col_bg: hsl(205, 64%, 85%);
+    --col_title: #8ed1d6;
+    --col_info: #1f1f2c;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    }
+    body {
+     background-color: var(--col_bg);
+    }
+    main{
+        background-color: var(--col_bg);
+        color: var(--col_title);
+        margin: 1em;
+        padding: 1em;
+       
+    }
+    .titolo{
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        clear: both;
+        background-color: #575c7e;
+    }
+
+    .titolo:hover{
+        transform: scale(1.01);
+    }
+    .baiana{
+        padding: 1em;
+        padding-top: 0%;
+        background-color: #575c7e;
+        width: 60%;
+        float: left;
+     
+        
+        
+    }
+
+    .info{
+        width: 35%;
+        float: right;
+       }
+     
+    
+    h1{
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        color: var(--col_title);
+        padding: 1em;   
+    }
+    h2{
+        background-color: var(--col_info);
+        padding: 10px;
+        text-align: right;
+        
+    }
+    
+    h3{
+        background-color:var(--col_info, #1f1f2c);
+        padding: 10px;
+        text-align: right;
+        
+    }
+
+    h4{
+        font-size: 25px;
+    }
+    .previsioni{
+        background-color:var(--col_info, #1f1f2c);
+        padding: 1em;
+        clear: both;
+        margin: auto;
+        padding: auto;
+        width: auto;
+    }
+
+    .navbar{
+        clear:both;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    .active {
+        background-color: #212c53;
+        }
+
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+    background-color: #111;
+    }
+
+    footer{
+        text-align: center;
+        background-color: #333;
+    }
+</style>
+
+
+
+<title>Circolo Nautico Baiana</title>
+<main>
+<div class="titolo">
+    <head>
+        <div class="baiana">
+        <h1 >Cricolo Nautico Baiana</h1>
+         </div>  
+
+
+         <div class="info">
+        <h2 style="font-size: 14px;">Torviscosa, <br> Strada della Zuina e Nogaredo <br> Località Nogaredo Baiana - 33050 Friuli Venezia Giulia (Udine) Italy <br>
+            
+            </h2>
+        <h3 style="font-size: 11px;"> Codice Fiscale N° 90006620307 <br> Concessione Demaniale Comune di Torviscosa N° 070/06 del 04/05/2006 - C.P. Monfalcone</h3>
+        </div>
+    </head>
+   
+</div>
+
+<body>
+
+    <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Luogo</a></li>
+        <li><a href="#">Contatti</a></li>
+        <li><a href="#">Iniziative</a></li>
+        <li><a href="#">Notizie</a></li>
+        <li><a href="#">Associarsi</a></li>
+
+    </ul>
+
+    <div class="previsioni">
+    <h4>Previsioni del tempo</h4>
+    
+       
+
+    <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+
+
+    <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=waves&product=ecmwfWaves&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+
+    <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=clouds&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+    
+    <iframe src="https://www.3bmeteo.com/moduli_esterni/localita_7_giorni_compatto/7376/ffffff/fc9b2a/5e5e5e/ffffff/it" width=650 height=200 frameborder="0"></iframe>
+
+    <p>Credits. <a href="https://www.windy.com/?45.648,13.775,5">windy</a></p>
+ 
+</div>
+
+</body>
+
+<footer>
+    <p><strong>NOTA 
+        - DISCLAIMER </strong><br>
+        Il Sito del Club Nautico Baiana è uno strumento di informazione NO PROFIT messo a disposizione dei propri Soci, con il quale il C.D. intende tenere costantemente informati i propri iscritti, gli appassionati ed i simpatizzanti, sulle novità, curiosità e notizie di rilievo che riguardano le attività del nostro Club o del mondo Nautico.<br>
+
+        Ogni informazione o riferimento, riportato in questo Sito, è da considerarsi puramente ed escusivamente di carattere ricreativo, pertanto, i responsabili del Club Nautico Baiana, declinano ogni responsabilità per l'uso proprio o improprio, chiunque possa farne del contenuto.<br>
+        
+        Questo blog non rappresenta una testata giornalistica in quanto viene aggiornato senza alcuna periodicità. Le notizie inserite sono frutto di esperienze dirette o tratte da fonti di informazione pubbliche. Alcune immagini o testi presenti in questo blog sono tratti in parte da Internet; qualora la loro pubblicazione violasse eventuali diritti d'autore, vogliate comunicarlo a segreteria.baiana@Gmail.com o baiana_cn@libero.it, verranno rimossi immediatamente.<br>
+        
+        AVVERTENZA:<br>
+        Informazioni, segnalazioni, coordinate, mappe e quant'altro contenuto in questo blog NON PUO' ESSERE UTILIZZATO PER LA NAVIGAZIONE in sostituzione della cartografia e delle pubblicazioni riconosciute dalle Autorità Marittime di competenza</p>
+</footer>
+
+
+</main>
+
+
+</html>
