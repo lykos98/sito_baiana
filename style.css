@@ -42,24 +42,27 @@ main{
     }
     
 
-h1{
+.h1t{
     font-size: 40px;
     font-weight: 800;
     text-align: center;
     color: var(--col_title);
     padding: 1em;   
+    
 }
-h2{
+.h2t{
     background-color: var(--col_info);
     padding: 10px;
     text-align: right;
+    font-size: 14px;
     
 }
 
-h3{
+.h3t{
     background-color:var(--col_info, #1f1f2c);
     padding: 10px;
     text-align: right;
+    font-size: 11px;
     
 }
 
