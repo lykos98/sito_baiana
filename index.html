@@ -2,6 +2,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 <html>
 
 
@@ -11,7 +12,7 @@
 <main>
 <div class="titolo">
     <head>
-        <link rel="stylesheet" href="style.css">
+        
         <div class="baiana">
         <h1 >Cricolo Nautico Baiana</h1>
          </div>  
@@ -31,11 +32,11 @@
 
     <ul class="navbar">
         <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Luogo</a></li>
-        <li><a href="#">Contatti</a></li>
-        <li><a href="#">Iniziative</a></li>
-        <li><a href="#">Notizie</a></li>
-        <li><a href="#">Associarsi</a></li>
+        <li><a href="pages/luogo.html">Luogo</a></li>
+        <li><a href="pages/contatti.html">Contatti</a></li>
+        <li><a href="pages/iniziative.html">Iniziative</a></li>
+        <li><a href="pages/notizie.html">Notizie</a></li>
+        <li><a href="pages/associarsi.html">Associarsi</a></li>
 
     </ul>
 
@@ -43,14 +44,21 @@
     <h4>Previsioni del tempo</h4>
     
        
+    <fieldset class="mappe">
+        <legend>Mappa dei Venti</legend>
+        <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+    </fieldset> 
 
-    <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+    <fieldset class="mappe">
+        <legend>Mappa delle Onde</legend>
+        <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=waves&product=ecmwfWaves&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+    </fieldset> 
 
+    <fieldset class="mappe">
+        <legend>Mappa delle Nuvole</legend>
+        <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=clouds&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+    </fieldset> 
 
-    <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=waves&product=ecmwfWaves&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
-
-    <iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=45.758&lon=13.348&detailLat=45.758&detailLon=13.348&width=650&height=450&zoom=9&level=surface&overlay=clouds&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
-    
     <iframe src="https://www.3bmeteo.com/moduli_esterni/localita_7_giorni_compatto/7376/ffffff/fc9b2a/5e5e5e/ffffff/it" width=650 height=200 frameborder="0"></iframe>
 
     <p>Credits. <a href="https://www.windy.com/?45.648,13.775,5">windy</a></p>

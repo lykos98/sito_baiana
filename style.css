@@ -3,6 +3,7 @@
 --col_bg: hsl(205, 64%, 85%);
 --col_title: #8ed1d6;
 --col_info: #1f1f2c;
+--wpage: 85%;
 font-family: 'Open Sans', Helvetica, sans-serif;
 }
 body {
@@ -19,11 +20,11 @@ main{
     font-family: 'Open Sans', Helvetica, sans-serif;
     clear: both;
     background-color: #575c7e;
+    width: var(--wpage);
+    margin: auto;
+    display: flex;
 }
 
-.titolo:hover{
-    transform: scale(1.01);
-}
 .baiana{
     padding: 1em;
     padding-top: 0%;
@@ -71,7 +72,7 @@ h4{
     clear: both;
     margin: auto;
     padding: auto;
-    width: auto;
+    width: var(--wpage);
 }
 
 .navbar{
@@ -81,11 +82,16 @@ h4{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: var(--wpage);
+    margin: auto;
 }
 .active {
     background-color: #212c53;
     }
-
+.mappe{
+    width: 650px;
+    padding: auto;
+}
 li {
 float: left;
 }
