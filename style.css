@@ -1,0 +1,109 @@
+
+:root{
+--col_bg: hsl(205, 64%, 85%);
+--col_title: #8ed1d6;
+--col_info: #1f1f2c;
+font-family: 'Open Sans', Helvetica, sans-serif;
+}
+body {
+    background-color: var(--col_bg);
+}
+main{
+    background-color: var(--col_bg);
+    color: var(--col_title);
+    margin: 1em;
+    padding: 1em;
+    
+}
+.titolo{
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    clear: both;
+    background-color: #575c7e;
+}
+
+.titolo:hover{
+    transform: scale(1.01);
+}
+.baiana{
+    padding: 1em;
+    padding-top: 0%;
+    background-color: #575c7e;
+    width: 60%;
+    float: left;
+    
+    
+    
+}
+
+.info{
+    width: 35%;
+    float: right;
+    }
+    
+
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--col_title);
+    padding: 1em;   
+}
+h2{
+    background-color: var(--col_info);
+    padding: 10px;
+    text-align: right;
+    
+}
+
+h3{
+    background-color:var(--col_info, #1f1f2c);
+    padding: 10px;
+    text-align: right;
+    
+}
+
+h4{
+    font-size: 25px;
+}
+.previsioni{
+    background-color:var(--col_info, #1f1f2c);
+    padding: 1em;
+    clear: both;
+    margin: auto;
+    padding: auto;
+    width: auto;
+}
+
+.navbar{
+    clear:both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.active {
+    background-color: #212c53;
+    }
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #111;
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+}
