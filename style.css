@@ -85,7 +85,15 @@ h4{
     height: fit-content;
     display: grid;
 }
+.init{
+    background-color: #cacaf3;
+    color: var(--col_info);
+    padding: 1em;
 
+    margin: 1em;
+    width: auto;
+    
+}
 .navbar{
     clear:both;
     list-style-type: none;
@@ -102,9 +110,14 @@ h4{
 .mappe{
     width: auto;
     padding: auto;
-    
-
 }
+.image{
+    padding: 1em;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
 li {
 float: left;
 }
