@@ -21,8 +21,10 @@ main{
     clear: both;
     background-color: #575c7e;
     width: var(--wpage);
+    padding: auto;
     margin: auto;
     display: flex;
+   
 }
 
 .baiana{
@@ -30,10 +32,6 @@ main{
     padding-top: 0%;
     background-color: #575c7e;
     width: 60%;
-    float: left;
-    
-    
-    
 }
 
 .info{
@@ -65,6 +63,14 @@ main{
     font-size: 11px;
     
 }
+fieldset{
+    margin: auto;
+    padding: 1em;
+}
+legend{
+    font-size: 25px;
+    font-weight: bold;
+}
 
 h4{
     font-size: 25px;
@@ -76,6 +82,8 @@ h4{
     margin: auto;
     padding: auto;
     width: var(--wpage);
+    height: fit-content;
+    display: grid;
 }
 
 .navbar{
@@ -92,11 +100,17 @@ h4{
     background-color: #212c53;
     }
 .mappe{
-    width: 650px;
+    width: auto;
     padding: auto;
+    
+
 }
 li {
 float: left;
+}
+
+.list_el{
+    float: none;
 }
 
 li a {
