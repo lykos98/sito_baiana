@@ -8,6 +8,7 @@ font-family: 'Open Sans', Helvetica, sans-serif;
 }
 body {
     background-color: var(--col_bg);
+    color: var(--col_title);
 }
 main{
     background-color: var(--col_bg);
@@ -89,7 +90,7 @@ h4{
     background-color: #cacaf3;
     color: var(--col_info);
     padding: 1em;
-
+    height: auto;
     margin: 1em;
     width: auto;
     
@@ -113,8 +114,9 @@ h4{
 }
 .image{
     padding: 1em;
-    width: 20%;
-    height: auto;
+    width: auto;
+    min-height: 20%;
+    max-height: 300px;
     float: left;
 }
 
@@ -125,6 +127,14 @@ float: left;
 .list_el{
     float: none;
 }
+.list_el a{
+    display: inline;
+    color: blue;
+}
+.list_el a:hover {
+    background-color: inherit;
+    color: purple;
+    }
 
 li a {
 display: block;
